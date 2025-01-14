@@ -1,19 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <h1> Marleigh's Tamagotchi Time ! </h1>
       <div className="card">
-        <p> this is where i'll put some pictures lol </p>
-      </div>
+            <img src="assets/Tamagotchi1.png" alt="Snow" style="width:100%"></img>
+            <img src="assets/Tamagotchi2.png" alt="Forest" style="width:100%"></img>
+            <img
+              src="assets/Tamagotchi3.png"
+              alt="Mountains"
+              style="width:100%"
+            ></img>
+          </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
